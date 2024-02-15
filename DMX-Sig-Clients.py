@@ -11,7 +11,7 @@ import os
 #st.write(uploaded_file.head())
 
 #st.write(uploaded_file.shape)
-@st.cache_data
+#@st.cache_data
 
 def charger_fichiers_excel(files):
     df_list = []
