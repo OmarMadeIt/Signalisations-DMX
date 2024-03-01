@@ -42,7 +42,7 @@ def charger_fichiers_excel(files):
     return df_repliq
 
 # Interface utilisateur avec Streamlit
-st.title("Importation de fichiers Excel")
+st.title("Importation Signalisations DMX")
 
 # Sélection des fichiers Excel à charger
 uploaded_files = st.file_uploader("Uploader les fichiers Excel", type=["xlsx"], accept_multiple_files=True)
